@@ -122,3 +122,30 @@ You are required to submit BOTH of the following for review:
 
 - - -
 © 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+
+<https://brianbixby.github.io/hmwk2/>
+
+<https://github.com/brianbixby/hmwk2>
+
+# HMWK2 - (02 Advanced CSS: Portfolio)
+
+## Description
+
+This project is a portfolio that I created from scratch. My task was to make the website adhere to accessibility standards using semantic HTML elements along with image attributes and to also remove redundent CSS code.
+
+## Screen shot
+
+The following image shows the web application's appearance and functionality:
+
+![The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page.](./assets/images/02-portfolio-homeowrk-demo.png)
+(./assets/images/02-portfolio-homeowrk-demo.png-2)
+
+## Link
+
+[Live site](https://brianbixby.github.io/hmwk2/)
+
+## Technology
+
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [Github](https://github.com/brianbixby/hmwk2)
