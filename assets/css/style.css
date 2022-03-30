@@ -94,9 +94,6 @@ p {
 }
 
 /* main content */
-.content {
-    /* padding: 0 75px; */
-}
 .sectionHeaderContainer {
     flex: 1 0 250px;
 }
@@ -121,12 +118,8 @@ p {
 }
 
 .contentSubsection {
-    margin-bottom: 25px;
+    padding-top: 25px;
     display: flex;
-}
-
-#work {
-
 }
 
 #work .sectionContentContainer {
@@ -164,9 +157,32 @@ p {
 .workSectionContainer p {
     font-size: 10px;
 }
+#secondWorkSectionContainer, #thirdWorkSectionContainer, #fourthWorkSectionContainer,  #fifthWorkSectionContainer {
+    background-size: cover;
+    background-position: center;
+}
+#secondWorkSectionContainer {
+    background-image: url(../images/led-wall.jpeg);
+}
+#thirdWorkSectionContainer {
+    background-image: url(../images/calculator.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #F8F8F8;
+}
+#fourthWorkSectionContainer {
+    background-color: #728DA3;
+}
+#fifthWorkSectionContainer {
+    background-color: var(--primary-color-gray);
+}
+
+
 
 #contact {
     display: flex;
+    margin-bottom: 25px;
 }
 #contact .sectionContentContainer {
     display: flex;
