@@ -86,6 +86,12 @@ p {
     font-size: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+.hero img {
+    position: absolute;
+    height: 180px;
+    bottom: -2px;
+    left: 70px;
+}
 
 /* main content */
 .content {
