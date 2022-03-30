@@ -15,10 +15,10 @@ html {
 }
 body {
     margin: 0 auto;
-    background-color: var(--primary-color-teal);
 }
 main {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #FFF;
 }
 p {
     font-size: 16px;
@@ -87,16 +87,35 @@ p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+/* main content */
+.content {
+    /* padding: 0 75px; */
+}
 .sectionHeaderContainer {
 
 }
+.sectionHeaderContainer h2 {
+    color: var(--primary-color-blue);
+    text-align: right;
+    font-size: 45px;
+    font-weight: 600;
+    padding: 10px 10px 10px 75px;
+    border-right: 3px solid var(--primary-color-blue);
+}
 
-.sectionContentContainer {
+.sectionContentContainer  {
+    padding: 0 75px 0 35px;
+}
 
+#about p  {
+    color: var(--primary-color-blue);
+    margin-bottom: 16px;
+    line-height: 1.2;
 }
 
 .contentSubsection {
-    
+    margin-bottom: 25px;
+    display: flex;
 }
 
 #work {
@@ -112,7 +131,19 @@ p {
 }
 
 #contact {
-
+    display: flex;
+}
+#contact .sectionContentContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+#contact a {
+    text-decoration: none;
+    color: var(--primary-color-gray);
+    border-bottom: 2px solid var(--primary-color-blue);
+    padding: 2px 7px;
 }
 
 /* media queries */
