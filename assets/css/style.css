@@ -203,13 +203,13 @@ p {
 
 #thirdWorkSectionContainer {
     background-image: url("../images/Work-Day-Scheduler_screen-shot.png");
-    background-size: contain;
-    background-position: center;
     background-repeat: no-repeat;
     background-color: #F8F8F8;
 }
 
 #fourthWorkSectionContainer {
+    background-image: url("../images/fantastland.png");
+    background-repeat: no-repeat;
     background-color: #728DA3;
 }
 
